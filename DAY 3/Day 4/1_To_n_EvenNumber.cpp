@@ -8,6 +8,6 @@ int main(){
         if(i%2==0)
         cout<<i<<endl;
     }
-    //Hello Hello Om Be Active in the class and listen to the teacher.
+    //Hello Hello Om.
     return 0;
 }
