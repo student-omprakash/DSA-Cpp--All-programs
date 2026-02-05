@@ -23,11 +23,8 @@ int smallest_window(string s){
             else c2--;
             first++;
         }
-
-
     }
-    return mini==INT_MAX?-1:mini;
-    
+    return mini==INT_MAX?-1:mini;  
 }
 int main(){
     string s;
@@ -35,6 +32,5 @@ int main(){
     getline(cin,s);
     //function call
     cout<<smallest_window(s);
-
     return 0;
 }
